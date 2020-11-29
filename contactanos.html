@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contactanos.css">
+    <link rel="stylesheet" href="paisespruebaapi.css">
+    <script type="text/javascript" src="googlemap.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <title>Razer-Contactas</title>
+</head>
+<body>
+    <header>
+        <ul class="nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactanos.html">Contacto</a></li>
+          
+
+    </ul>
+    </header>
+    <section id="logo">
+
+      <img src="" width="100%" alt="">
+
+    </section>
+
+    <section id="main-content">
+        <h1 id="servicio">Formulario de Contacto</h1>
+
+
+        <div class="container">
+            <form action="">
+              <div class="row">
+                <div class="col-25">
+                  <label for="pnombre">Nombre</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="pnombre" name="primernombre" placeholder="Tu Nombre">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="Aapellidos">Apellidos</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="Aapellidos" name="apellidos" placeholder="Tus Apellidos">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="ciudad">Correo</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="correo" name="correo" placeholder="Correo electronico">
+
+                  <div id="main-container">
+                    <div id="flag-container">
+                      <img src="" alt="">
+                    </div>
+                    <div id="info-container">
+                      <select id="countries"></select>
+                      <p>Codigo Postal: <span id="dialing-code"></span></p>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="Genero">Numero</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="nNumeros" name="Numero" placeholder="Numero de celular">
+                </div>
+              </div>
+       
+              <div class="row">
+                <div class="col-25">
+                  <label for="Asunto">Asunto</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="Asunto" name="Asunto" placeholder="Asunto">
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-25">
+                  <label for="Mensaje">Mensaje</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="Mensaje" name="Mensaje" placeholder="Escribe Algo.." style="height:200px"></textarea>
+             
+                </div>
+              </div>
+              </div>
+              
+               
+              </div>
+              <div id="map"></div>
+            
+            </form>
+          </div>
+
+    </section> 
+  <script src="googlemap.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnc1wUPXZNJ5BXfSqXa8w8u-7n6WiWfI8&callback=iniciarMap"></script>
+  <script src="paises.js"></script>
+</body>
+
+</html>
